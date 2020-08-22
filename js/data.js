@@ -1,1443 +1,1442 @@
-﻿ var datas=
-[
-    [
-        {
-            "name": "我浪漫并富于幻想",
-            "value": "4"
-        },
-        {
-            "name": "我很实际并实事求是",
-            "value": "1"
-        }
-    ],
-    [
-        {
-            "name": "我倾向于接受冲突",
-            "value": "6"
-        },
-        {
-            "name": "我倾向于避免冲突",
-            "value": "0"
-        }
-    ],
-    [
-        {
-            "name": "我一般是老练的、有魅力的以及有上进心",
-            "value": "2"
-        },
-        {
-            "name": "我一般是直率的、刻板的以及空想的",
-            "value": "4"
-        }
-    ],
-    [
-        {
-            "name": "我倾向于集中注意某一事物时，容易紧张",
-            "value": "7"
-        },
-        {
-            "name": "我倾向于自然的东西，喜欢开玩笑",
-            "value": "8"
-        }
-    ],
-    [
-        {
-            "name": "我待人友好，愿意结交新朋友",
-            "value": "5"
-        },
-        {
-            "name": "我喜欢独处，不太愿意与人交往",
-            "value": "4"
-        }
-    ],
-    [
-        {
-            "name": "我很难放松和停止思考潜在的问题",
-            "value": "1"
-        },
-        {
-            "name": "潜在的问题不会影响我的工作",
-            "value": "0"
-        }
-    ],
-    [
-        {
-            "name": "我是“聪明”的生存者",
-            "value": "6"
-        },
-        {
-            "name": "我是“高尚”的理想主义者",
-            "value": "3"
-        }
-    ],
-    [
-        {
-            "name": "我需要给别人爱",
-            "value": "4"
-        },
-        {
-            "name": "我愿意与别人保持一定的距离",
-            "value": "6"
-        }
-    ],
-    [
-        {
-            "name": "当别人给我一项新任务时，我通常会问自己它是否对我有用",
-            "value": "2"
-        },
-        {
-            "name": "当别人给我一项新任务时，我通常会问自己是否有兴趣",
-            "value": "8"
-        }
-    ],
-    [
-        {
-            "name": "我倾向于关注自己",
-            "value": "4"
-        },
-        {
-            "name": "我倾向于关注他人",
-            "value": "0"
-        }
-    ],
-    [
-        {
-            "name": "别人依赖我的见识与知识",
-            "value": "7"
-        },
-        {
-            "name": "别人依赖我的力量与决策",
-            "value": "6"
-        }
-    ],
-    [
-        {
-            "name": "我给人的印象是十分不自信的",
-            "value": "1"
-        },
-        {
-            "name": "我给人的印象是十分自信的",
-            "value": "3"
-        }
-    ],
-    [
-        {
-            "name": "我更加注重关系",
-            "value": "5"
-        },
-        {
-            "name": "我更加注意目的",
-            "value": "2"
-        }
-    ],
-    [
-        {
-            "name": "我不能大胆地说出自己想说的话",
-            "value": "4"
-        },
-        {
-            "name": "我能大胆地说出别人想说但没敢说的话",
-            "value": "8"
-        }
-    ],
-    [
-        {
-            "name": "不考虑其他选择而做某一确定的事对我来说是很困难的",
-            "value": "7"
-        },
-        {
-            "name": "放松、更具灵活性对我来说是很困难的",
-            "value": "3"
-        }
-    ],
-    [
-        {
-            "name": "我一般犹豫与拖延",
-            "value": "1"
-        },
-        {
-            "name": "我一般大胆与果断",
-            "value": "6"
-        }
-    ],
-    [
-        {
-            "name": "我不愿意别人给我带来麻烦",
-            "value": "0"
-        },
-        {
-            "name": "我被别人依赖，让我帮忙解决麻烦",
-            "value": "5"
-        }
-    ],
-    [
-        {
-            "name": "通常我会为了完成工作将感情置之不顾",
-            "value": "2"
-        },
-        {
-            "name": "在做事之前我需要克制自己的感情",
-            "value": "4"
-        }
-    ],
-    [
-        {
-            "name": "我一般是讲求方法并且很谨慎的",
-            "value": "1"
-        },
-        {
-            "name": "我一般是敢于冒险的",
-            "value": "4"
-        }
-    ],
-    [
-        {
-            "name": "我倾向于帮助和给予，喜欢与他人在一起",
-            "value": "5"
-        },
-        {
-            "name": "我倾向于严肃与缄默，喜欢讨论问题",
-            "value": "3"
-        }
-    ],
-    [
-        {
-            "name": "我常常感到自己需要成为顶梁柱",
-            "value": "6"
-        },
-        {
-            "name": "我常常感到自己需要做的十全十美",
-            "value": "2"
-        }
-    ],
-    [
-        {
-            "name": "我喜欢问难题和保持独立性",
-            "value": "6"
-        },
-        {
-            "name": "我喜欢保持心理的稳定与平静",
-            "value": "0"
-        }
-    ],
-    [
-        {
-            "name": "我太顽固并保持怀疑的态度",
-            "value": "1"
-        },
-        {
-            "name": "我太软心肠并多愁善感",
-            "value": "5"
-        }
-    ],
-    [
-        {
-            "name": "我常常担心自己不能得到较好的东西",
-            "value": "8"
-        },
-        {
-            "name": "我常常担心如果自己放松警惕，别人就会欺骗我",
-            "value": "6"
-        }
-    ],
-    [
-        {
-            "name": "我习惯性表现得很冷淡而使别人生气",
-            "value": "4"
-        },
-        {
-            "name": "我习惯性指使别人做事而使他们生气",
-            "value": "3"
-        }
-    ],
-    [
-        {
-            "name": "如果有太多的刺激和鼓舞，我会感到忧虑",
-            "value": "0"
-        },
-        {
-            "name": "如果没有太多的刺激和鼓舞，我会感到忧虑",
-            "value": "8"
-        }
-    ],
-    [
-        {
-            "name": "我要依靠朋友，同时他们也可以依靠我",
-            "value": "1"
-        },
-        {
-            "name": "我不依靠别人独立行事",
-            "value": "2"
-        }
-    ],
-    [
-        {
-            "name": "我一般独立于专心",
-            "value": "7"
-        },
-        {
-            "name": "我一般情绪化并热衷于自己的想法",
-            "value": "4"
-        }
-    ],
-    [
-        {
-            "name": "我喜欢向别人提出挑战，使他们振奋起来",
-            "value": "6"
-        },
-        {
-            "name": "我一般是敢于冒险的",
-            "value": "5"
-        }
-    ],
-    [
-        {
-            "name": "我总的来说是个开朗并喜欢交际的人",
-            "value": "8"
-        },
-        {
-            "name": "我总的来说是个认真并能很自律的人",
-            "value": "3"
-        }
-    ],
-    [
-        {
-            "name": "我希望能迎合别人-当别人距离很远，我就会感到不舒服",
-            "value": "0"
-        },
-        {
-            "name": "我希望与众不同-当不能看到别人与自己的区别，我就感到不舒服",
-            "value": "2"
-        }
-    ],
-    [
-        {
-            "name": "对我来说，追求个人的兴趣比追求舒适与安全更重要",
-            "value": "7"
-        },
-        {
-            "name": "对我来说，追求舒适比追求个人的兴趣更为重要",
-            "value": "1"
-        }
-    ],
-    [
-        {
-            "name": "当与他人有冲突时，我倾向于退缩",
-            "value": "4"
-        },
-        {
-            "name": "当与他人有冲突时，我很少会改变自己的态度",
-            "value": "6"
-        }
-    ],
-    [
-        {
-            "name": "我很容易屈服并受他人摆布",
-            "value": "0"
-        },
-        {
-            "name": "我对他人不但不作出让步，而且还对他们下达命令",
-            "value": "3"
-        }
-    ],
-    [
-        {
-            "name": "我很赏识自己高昂的精神状态与深沉",
-            "value": "8"
-        },
-        {
-            "name": "我很赏识自己对他人深沉的关心与热情",
-            "value": "5"
-        }
-    ],
-    [
-        {
-            "name": "我很想给别人留下好的印象",
-            "value": "2"
-        },
-        {
-            "name": "我并不在乎要给别人留下好的印象",
-            "value": "7"
-        }
-    ],
-    [
-        {
-            "name": "我依赖自己的毅力与常有的感觉",
-            "value": "1"
-        },
-        {
-            "name": "我依赖自己的想象与瞬间的灵感",
-            "value": "4"
-        }
-    ],
-    [
-        {
-            "name": "总的来说，我是很随和和很可爱的",
-            "value": "0"
-        },
-        {
-            "name": "总的来说，我是精力旺盛和过分自信的",
-            "value": "6"
-        }
-    ],
-    [
-        {
-            "name": "我努力工作以得到别人的接受与喜欢",
-            "value": "2"
-        },
-        {
-            "name": "能否得到别人的接受与喜欢对我来说并不重要",
-            "value": "3"
-        }
-    ],
-    [
-        {
-            "name": "当别人给我压力时我更容易退缩",
-            "value": "7"
-        },
-        {
-            "name": "当别人给我压力时我会变得更加自信",
-            "value": "8"
-        }
-    ],
-    [
-        {
-            "name": "人们对我感兴趣是因为我很开朗，有吸引力，有趣",
-            "value": "5"
-        },
-        {
-            "name": "人们对我感兴趣是因为我很安静，不同寻常，深沉",
-            "value": "4"
-        }
-    ],
-    [
-        {
-            "name": "职责与责任对我来说很重要",
-            "value": "1"
-        },
-        {
-            "name": "协调与认可对我来说很重要",
-            "value": "0"
-        }
-    ],
-    [
-        {
-            "name": "我制定出重要的计划并作出承诺以此鼓励人们",
-            "value": "6"
-        },
-        {
-            "name": "我指出不按照我们的建议去做所产生的后果，以此来要求人们顺从",
-            "value": "3"
-        }
-    ],
-    [
-        {
-            "name": "我很少表露情绪",
-            "value": "7"
-        },
-        {
-            "name": "我经常表露情绪",
-            "value": "5"
-        }
-    ],
-    [
-        {
-            "name": "我不擅长处理琐碎的事",
-            "value": "8"
-        },
-        {
-            "name": "我擅长处理琐碎的事",
-            "value": "2"
-        }
-    ],
-    [
-        {
-            "name": "我常常强调自己与绝大多数人的不同之处，尤其是家境的不同之处",
-            "value": "4"
-        },
-        {
-            "name": "我常常强调与绝大多数人的共同之处，尤其是家境的共同之处",
-            "value": "0"
-        }
-    ],
-    [
-        {
-            "name": "当场面变得热闹起来时，我倾向于站在一旁",
-            "value": "7"
-        },
-        {
-            "name": "当场面变得热闹起来时，我倾向于加入其中",
-            "value": "6"
-        }
-    ],
-    [
-        {
-            "name": "即使朋友不对，我也会支持他们",
-            "value": "1"
-        },
-        {
-            "name": "我不想为了友情对正确的事情作妥协",
-            "value": "3"
-        }
-    ],
-    [
-        {
-            "name": "我是一个善意的支持者",
-            "value": "5"
-        },
-        {
-            "name": "我是一个积极的老手",
-            "value": "2"
-        }
-    ],
-    [
-        {
-            "name": "当遇到困难时我倾向于夸大我的问题",
-            "value": "4"
-        },
-        {
-            "name": "当遇到困难时我倾向于转移注意力",
-            "value": "8"
-        }
-    ],
-    [
-        {
-            "name": "总的来说，我很确信知道情况应该如何",
-            "value": "3"
-        },
-        {
-            "name": "总的来说，我对情况持怀疑的态度",
-            "value": "7"
-        }
-    ],
-    [
-        {
-            "name": "我的悲观、抱怨会给别人带来麻烦",
-            "value": "1"
-        },
-        {
-            "name": "我的老板式的、控制的方式会给别人带来麻烦",
-            "value": "6"
-        }
-    ],
-    [
-        {
-            "name": "我倾向于按我的感觉办事并听之任之",
-            "value": "5"
-        },
-        {
-            "name": "我倾向于不按照我的感觉办事以免产生更多的问题",
-            "value": "0"
-        }
-    ],
-    [
-        {
-            "name": "通常我成为注意的焦点时，会很自然",
-            "value": "2"
-        },
-        {
-            "name": "通常我成为注意的焦点时，会很不习惯",
-            "value": "4"
-        }
-    ],
-    [
-        {
-            "name": "我做事情很谨慎，努力为意料之外的事情做准备",
-            "value": "1"
-        },
-        {
-            "name": "我做事情凭一时冲动，只是在问题出现时才临时准备",
-            "value": "8"
-        }
-    ],
-    [
-        {
-            "name": "当别人不是很欣赏我为他们所做的事情时我会很生气",
-            "value": "5"
-        },
-        {
-            "name": "当别人不听我说时我会很生气",
-            "value": "3"
-        }
-    ],
-    [
-        {
-            "name": "独立、自立更生对我很重要",
-            "value": "6"
-        },
-        {
-            "name": "有价值、得到别人的称赞对我很重要",
-            "value": "2"
-        }
-    ],
-    [
-        {
-            "name": "当与朋友争论时我倾向于强烈地坚持自己的观点",
-            "value": "7"
-        },
-        {
-            "name": "当与朋友争论时我倾向于顺其自然以免伤了和气",
-            "value": "0"
-        }
-    ],
-    [
-        {
-            "name": "我常常占有所爱的人——我不能放任他们",
-            "value": "4"
-        },
-        {
-            "name": "我常常“考察”所爱的人，想确定他们是否爱我",
-            "value": "1"
-        }
-    ],
-    [
-        {
-            "name": "组织资源并促使某些事情的发生是我的优势之一",
-            "value": "6"
-        },
-        {
-            "name": "提出新观点并同时振奋人心，这是我的优势之一",
-            "value": "8"
-        }
-    ],
-    [
-        {
-            "name": "我要在别人的驱策下才会做事，不能依赖自己",
-            "value": "3"
-        },
-        {
-            "name": "我过于情绪化，不能自律",
-            "value": "4"
-        }
-    ],
-    [
-        {
-            "name": "我试图使生活高节奏、紧张并充满兴奋的感觉",
-            "value": "8"
-        },
-        {
-            "name": "我试图使生活有规律、稳定、宁静",
-            "value": "0"
-        }
-    ],
-    [
-        {
-            "name": "尽管我已取得成功，我仍怀疑自己的能力",
-            "value": "1"
-        },
-        {
-            "name": "尽管我受到挫折，但我仍相信自己的能力",
-            "value": "2"
-        }
-    ],
-    [
-        {
-            "name": "一般我倾向于详细研究自己的情感并保持此情感很久",
-            "value": "4"
-        },
-        {
-            "name": "一般我倾向于减少自己的情感并不加以注意",
-            "value": "7"
-        }
-    ],
-    [
-        {
-            "name": "我对许多人加以注意并培养他们",
-            "value": "5"
-        },
-        {
-            "name": "我指导许多人并鼓励他们",
-            "value": "2"
-        }
-    ],
-    [
-        {
-            "name": "我对自己要求有点严格",
-            "value": "3"
-        },
-        {
-            "name": "我对自己有点宽容",
-            "value": "8"
-        }
-    ],
-    [
-        {
-            "name": "我倾向于独断，并追求卓越",
-            "value": "2"
-        },
-        {
-            "name": "我谦虚，喜欢按自己的节奏做事",
-            "value": "0"
-        }
-    ],
-    [
-        {
-            "name": "我为自己的清晰性与目标性感到自豪",
-            "value": "7"
-        },
-        {
-            "name": "我为自己的可靠性与诚实而感到自豪",
-            "value": "1"
-        }
-    ],
-    [
-        {
-            "name": "我花大量的时间反省——理解自己的感受对我来说是很重要的",
-            "value": "4"
-        },
-        {
-            "name": "我花大量的时间反省——做完事情对我来说是很重要的",
-            "value": "6"
-        }
-    ],
-    [
-        {
-            "name": "总的来说我认为自己是一个灿烂的随和的人",
-            "value": "0"
-        },
-        {
-            "name": "总的来说我是一个严肃的、有品位的人",
-            "value": "3"
-        }
-    ],
-    [
-        {
-            "name": "我头脑灵活，精力充沛",
-            "value": "8"
-        },
-        {
-            "name": "我有一颗赤热的心，具有奉献精神",
-            "value": "5"
-        }
-    ],
-    [
-        {
-            "name": "我所做的事情要有极大的可能性得到奖励与赏识",
-            "value": "2"
-        },
-        {
-            "name": "如果所做的事是我所感兴趣的，我愿意放弃自己的奖励与赏识",
-            "value": "7"
-        }
-    ],
-    [
-        {
-            "name": "我认为履行社会义务并不重要",
-            "value": "3"
-        },
-        {
-            "name": "我常常认真地履行我的社会义务",
-            "value": "1"
-        }
-    ],
-    [
-        {
-            "name": "在绝大多数情况下，我愿意做领导",
-            "value": "6"
-        },
-        {
-            "name": "在绝大多数情况下，我愿意让其他人做领导",
-            "value": "0"
-        }
-    ],
-    [
-        {
-            "name": "多年以来，我的价值观与生活方式变化了好几次",
-            "value": "3"
-        },
-        {
-            "name": "多年以来，我的价值观与生活方式基本没有变化",
-            "value": "1"
-        }
-    ],
-    [
-        {
-            "name": "一般我缺乏自律能力",
-            "value": "8"
-        },
-        {
-            "name": "一般我与别人的联系很少",
-            "value": "7"
-        }
-    ],
-    [
-        {
-            "name": "我倾向于拒绝给予爱，希望别人进入我的世界",
-            "value": "4"
-        },
-        {
-            "name": "我倾向于过于直率地给别人爱，希望自己进入到别人的世界",
-            "value": "5"
-        }
-    ],
-    [
-        {
-            "name": "我倾向于作最坏的打算",
-            "value": "1"
-        },
-        {
-            "name": "我倾向于认为任何事情都会变得最好",
-            "value": "0"
-        }
-    ],
-    [
-        {
-            "name": "人们相信我是因为我很自信并且尽全力做的最好",
-            "value": "3"
-        },
-        {
-            "name": "人们相信我是因为我很公正会正确地做事",
-            "value": "1"
-        }
-    ],
-    [
-        {
-            "name": "我常常忙于自己的事情而忽略了与他人的交往",
-            "value": "7"
-        },
-        {
-            "name": "我常常忙于与他人交往而忽略了自己的事情",
-            "value": "4"
-        }
-    ],
-    [
-        {
-            "name": "当第一次遇到某人时，通常我会镇定自若并沉默寡言",
-            "value": "2"
-        },
-        {
-            "name": "当第一次遇到某人时，通常我会闲聊并使人觉得有趣",
-            "value": "8"
-        }
-    ],
-    [
-        {
-            "name": "总而言之，我是很悲观的",
-            "value": "0"
-        },
-        {
-            "name": "总而言之，我是很乐观的",
-            "value": "4"
-        }
-    ],
-    [
-        {
-            "name": "我更喜欢呆在自己的小世界里",
-            "value": "7"
-        },
-        {
-            "name": "我更喜欢让全世界的人知道我的所在",
-            "value": "6"
-        }
-    ],
-    [
-        {
-            "name": "我常常被紧张、不安全与怀疑而困扰",
-            "value": "1"
-        },
-        {
-            "name": "我常常被生气、完美主义与不耐烦而困扰",
-            "value": "3"
-        }
-    ],
-    [
-        {
-            "name": "我意识到我是太有人情味与待人太亲密",
-            "value": "5"
-        },
-        {
-            "name": "我意识到我是太酷过于冷漠",
-            "value": "2"
-        }
-    ],
-    [
-        {
-            "name": "我失败是因为我不能抓住机会",
-            "value": "4"
-        },
-        {
-            "name": "我失败是因为我追求太多的可能性",
-            "value": "8"
-        }
-    ],
-    [
-        {
-            "name": "我要过很长的时间后才会采取行动",
-            "value": "7"
-        },
-        {
-            "name": "我会立即采取行动",
-            "value": "3"
-        }
-    ],
-    [
-        {
-            "name": "通常我很难作出决定",
-            "value": "1"
-        },
-        {
-            "name": "我很少会感到难作出决定",
-            "value": "6"
-        }
-    ],
-    [
-        {
-            "name": "我倾向于给人留下态度强硬的印象",
-            "value": "5"
-        },
-        {
-            "name": "我并不倾向于过多地坚持自己的意见",
-            "value": "0"
-        }
-    ],
-    [
-        {
-            "name": "我情绪稳定",
-            "value": "2"
-        },
-        {
-            "name": "我情绪多变",
-            "value": "4"
-        }
-    ],
-    [
-        {
-            "name": "当不知道要干什么事情时，我常常会向别人寻求建议",
-            "value": "1"
-        },
-        {
-            "name": "当不知道要干什么事情时，我会尝试不同的事情以确定哪一种最适合我去做",
-            "value": "8"
-        }
-    ],
-    [
-        {
-            "name": "我担心，别人搞活动时会忘记我",
-            "value": "5"
-        },
-        {
-            "name": "我担心，参加别人活动会影响我做自己的事情",
-            "value": "3"
-        }
-    ],
-    [
-        {
-            "name": "当我生气时，一般我会责备别人",
-            "value": "6"
-        },
-        {
-            "name": "当我生气时，一般我会变得很冷淡",
-            "value": "2"
-        }
-    ],
-    [
-        {
-            "name": "我很难入睡",
-            "value": "7"
-        },
-        {
-            "name": "我很快就能入睡",
-            "value": "0"
-        }
-    ],
-    [
-        {
-            "name": "我常常努力地思考如何与别人产生更为亲密的关系",
-            "value": "5"
-        },
-        {
-            "name": "我常常努力地思考别人想从我这儿得到什么",
-            "value": "1"
-        }
-    ],
-    [
-        {
-            "name": "通常我是慎重的、有话直说的并且深思熟虑的人",
-            "value": "6"
-        },
-        {
-            "name": "通常我是易兴奋的、善于快速地说话以回避问题并且机智的人",
-            "value": "8"
-        }
-    ],
-    [
-        {
-            "name": "当看到别人犯错误时，我常常不说出口",
-            "value": "4"
-        },
-        {
-            "name": "当看到别人犯错误时，我常常会帮助他们认识到所犯的错误",
-            "value": "3"
-        }
-    ],
-    [
-        {
-            "name": "在生活中的绝大多数时间里，我是情感激烈的人，会产生许多易变的情感",
-            "value": "8"
-        },
-        {
-            "name": "在生活中的绝大多数时间里，我是很稳定的人，我会“心如止水”",
-            "value": "0"
-        }
-    ],
-    [
-        {
-            "name": "当我不喜欢某些人时，我会掩藏自己的情感而努力地保持热情",
-            "value": "2"
-        },
-        {
-            "name": "当我不喜欢某些人时，我会以这种或那种方式让他们知道我的情感",
-            "value": "1"
-        }
-    ],
-    [
-        {
-            "name": "我与别人交往有困难是因为我很敏感并总是从自己的角度考虑事情",
-            "value": "4"
-        },
-        {
-            "name": "我与别人交往有困难是因为我不太在乎社会习俗",
-            "value": "7"
-        }
-    ],
-    [
-        {
-            "name": "我的方法是直接帮助别人",
-            "value": "5"
-        },
-        {
-            "name": "我的方法是告诉别人如何自助",
-            "value": "6"
-        }
-    ],
-    [
-        {
-            "name": "总的来说，我喜欢“释放”并突破所受的限制",
-            "value": "8"
-        },
-        {
-            "name": "总的来说，我不喜欢过多地失去自我控制",
-            "value": "3"
-        }
-    ],
-    [
-        {
-            "name": "我过度地关注于要比别人做得好",
-            "value": "2"
-        },
-        {
-            "name": "我过度地关注于把别人的事做好就行",
-            "value": "0"
-        }
-    ],
-    [
-        {
-            "name": "我的想法总是很玄想的——包含着想象与好奇",
-            "value": "7"
-        },
-        {
-            "name": "我的想法总是很实际的——只是试图保持事情的发展状况",
-            "value": "1"
-        }
-    ],
-    [
-        {
-            "name": "我的主要优势之一就是我能够控制场面",
-            "value": "6"
-        },
-        {
-            "name": "我的主要优势之一就是我能够讲述内心的感受",
-            "value": "4"
-        }
-    ],
-    [
-        {
-            "name": "我努力争取做好事情而不管这样会使别人不开心",
-            "value": "3"
-        },
-        {
-            "name": "我不喜欢有压力的感觉，所以也不喜欢压制别人",
-            "value": "0"
-        }
-    ],
-    [
-        {
-            "name": "我常常感到骄傲因为我对别人的生活中起着重要的作用",
-            "value": "5"
-        },
-        {
-            "name": "我常常感到骄傲因为我对新的经历会很感兴趣并且乐于接受",
-            "value": "8"
-        }
-    ],
-    [
-        {
-            "name": "我认为我给别人留下的印象是好样的甚至很令人钦佩",
-            "value": "2"
-        },
-        {
-            "name": "我认为我给别人留下的印象是与众不同的甚至很古怪",
-            "value": "7"
-        }
-    ],
-    [
-        {
-            "name": "一般我做我必须去做的事",
-            "value": "1"
-        },
-        {
-            "name": "一般我做我想做的事",
-            "value": "4"
-        }
-    ],
-    [
-        {
-            "name": "我很喜欢处于高度的压力之下甚至是困难的情景中",
-            "value": "6"
-        },
-        {
-            "name": "我不喜欢处于高度的压力之下甚至是困难的情景中",
-            "value": "0"
-        }
-    ],
-    [
-        {
-            "name": "我为自己的灵活能力感到骄傲——我知道合适的或重要的情况是变化的",
-            "value": "2"
-        },
-        {
-            "name": "我为自己的立场感到骄傲——我有坚定的信念",
-            "value": "3"
-        }
-    ],
-    [
-        {
-            "name": "我的风格倾向于节约而朴实",
-            "value": "7"
-        },
-        {
-            "name": "我的风格倾向于过度并过量地做某些事情",
-            "value": "8"
-        }
-    ],
-    [
-        {
-            "name": "我的健康与幸福受到伤害因为我有强烈的愿望去帮助别人",
-            "value": "5"
-        },
-        {
-            "name": "我的人际关系受到损害因为我只关注与自己的需要",
-            "value": "4"
-        }
-    ],
-    [
-        {
-            "name": "总的来说，我太坦诚太天真",
-            "value": "0"
-        },
-        {
-            "name": "总的来说，我过于谨慎过于戒备",
-            "value": "1"
-        }
-    ],
-    [
-        {
-            "name": "有时我因过于好斗而令人厌恶",
-            "value": "6"
-        },
-        {
-            "name": "有时我因太紧张而令人厌恶",
-            "value": "3"
-        }
-    ],
-    [
-        {
-            "name": "关心别人的需要并提供服务对我来说是很重要的",
-            "value": "5"
-        },
-        {
-            "name": "寻找看待并做好事情的其他方法对我来说是很重要的",
-            "value": "7"
-        }
-    ],
-    [
-        {
-            "name": "我全身心地持之以恒地追求我的目标",
-            "value": "2"
-        },
-        {
-            "name": "我喜欢探索各种行动的途径，想看看最终的结果如何",
-            "value": "8"
-        }
-    ],
-    [
-        {
-            "name": "我经常会激起强烈与紧张的情绪",
-            "value": "4"
-        },
-        {
-            "name": "我经常使自己冷静与安逸",
-            "value": "0"
-        }
-    ],
-    [
-        {
-            "name": "我不太注重实际的结果，而注重自己的兴趣",
-            "value": "7"
-        },
-        {
-            "name": "我很实际并希望我的工作有具体的结果",
-            "value": "6"
-        }
-    ],
-    [
-        {
-            "name": "我有强烈的归属需要",
-            "value": "1"
-        },
-        {
-            "name": "我有强烈的平衡需要",
-            "value": "3"
-        }
-    ],
-    [
-        {
-            "name": "过去我可能过于要求朋友间的亲密",
-            "value": "5"
-        },
-        {
-            "name": "过去我可能过于要求朋友间的疏远",
-            "value": "2"
-        }
-    ],
-    [
-        {
-            "name": "我倾向于回忆过去的事情",
-            "value": "3"
-        },
-        {
-            "name": "我倾向于预期未来所要做的事情",
-            "value": "8"
-        }
-    ],
-    [
-        {
-            "name": "我倾向于将人看作是很麻烦的、苛刻的",
-            "value": "7"
-        },
-        {
-            "name": "我倾向于将人看作是很莽撞的，和有需求的",
-            "value": "3"
-        }
-    ],
-    [
-        {
-            "name": "总的来说，我不太自信",
-            "value": "1"
-        },
-        {
-            "name": "总的来说，我仅相信自己",
-            "value": "6"
-        }
-    ],
-    [
-        {
-            "name": "我可能太被动，不积极参与",
-            "value": "0"
-        },
-        {
-            "name": "我可能控制过多",
-            "value": "5"
-        }
-    ],
-    [
-        {
-            "name": "我经常因为怀疑自己而停下来",
-            "value": "4"
-        },
-        {
-            "name": "我很少会怀疑自己",
-            "value": "2"
-        }
-    ],
-    [
-        {
-            "name": "如果让我在熟悉的东西与新的东西之间作出选择，我会选新的东西",
-            "value": "8"
-        },
-        {
-            "name": "我一般会选我所喜欢的东西：会对我所不喜欢的东西而感到失望",
-            "value": "1"
-        }
-    ],
-    [
-        {
-            "name": "我给别人大量的身体接触以使他们相信我对他们的爱",
-            "value": "5"
-        },
-        {
-            "name": "我认为真正的爱是不需要身体的接触",
-            "value": "3"
-        }
-    ],
-    [
-        {
-            "name": "当我需要责备别人时，我是很严厉很直截了当的",
-            "value": "6"
-        },
-        {
-            "name": "当我需要责备别人时，我常常是旁敲侧击的",
-            "value": "2"
-        }
-    ],
-    [
-        {
-            "name": "我对别人认为很困扰甚至很可怕的学科却很感兴趣",
-            "value": "7"
-        },
-        {
-            "name": "我不喜欢去研究令人困扰的、可怕的学科",
-            "value": "0"
-        }
-    ],
-    [
-        {
-            "name": "我因防碍、干扰别人，而受到指责",
-            "value": "5"
-        },
-        {
-            "name": "我因过于逃避、沉默寡言而受到别人的指责",
-            "value": "1"
-        }
-    ],
-    [
-        {
-            "name": "我担心没有办法履行我的职责",
-            "value": "6"
-        },
-        {
-            "name": "我担心自己缺乏自律不能履行职责",
-            "value": "8"
-        }
-    ],
-    [
-        {
-            "name": "总的来说我是一个很凭直觉办事并且极度个人主义的人",
-            "value": "4"
-        },
-        {
-            "name": "总的来说我是一个很有组织的并且负责任的人",
-            "value": "3"
-        }
-    ],
-    [
-        {
-            "name": "克服惰性是我的主要问题之一",
-            "value": "0"
-        },
-        {
-            "name": "不能缓慢下来是我的主要问题之一",
-            "value": "8"
-        }
-    ],
-    [
-        {
-            "name": "当我觉得不安全时，我会变得傲慢，表示对此的轻视",
-            "value": "2"
-        },
-        {
-            "name": "当我觉得不安全时，我会自卫并变得好争论",
-            "value": "1"
-        }
-    ],
-    [
-        {
-            "name": "我是思想开明的，乐意尝试新的方法",
-            "value": "7"
-        },
-        {
-            "name": "我会表白真情，乐意与别人共享我的情感",
-            "value": "4"
-        }
-    ],
-    [
-        {
-            "name": "在别人面前我会表现得比实际的我更为强硬些",
-            "value": "6"
-        },
-        {
-            "name": "在别人面前我会表现得比实际的我更为在意些",
-            "value": "5"
-        }
-    ],
-    [
-        {
-            "name": "通常我是按我的良心与理性去做事情",
-            "value": "3"
-        },
-        {
-            "name": "通常我是按我的感觉与冲动去做事情",
-            "value": "8"
-        }
-    ],
-    [
-        {
-            "name": "严峻的逆境使我变得坚强",
-            "value": "2"
-        },
-        {
-            "name": "严峻的逆境使我变得气馁与听天由命",
-            "value": "0"
-        }
-    ],
-    [
-        {
-            "name": "我确信有某种“安全网”以依靠",
-            "value": "7"
-        },
-        {
-            "name": "我常常要选择居于边缘而无所依靠",
-            "value": "1"
-        }
-    ],
-    [
-        {
-            "name": "我要为了别人而表现得很坚强所以没有时间顾及自己的情感与忧虑",
-            "value": "6"
-        },
-        {
-            "name": "我不能应对自己的情感与忧虑，所以我不能为别人而表现得很坚强",
-            "value": "4"
-        }
-    ],
-    [
-        {
-            "name": "我常常觉得奇怪，生活中美好的事情很多为什么人们只看到消极的一面",
-            "value": "0"
-        },
-        {
-            "name": "我常常觉得奇怪，生活中很糟糕为什么人还这么开心",
-            "value": "3"
-        }
-    ],
-    [
-        {
-            "name": "我努力使自己不被看作为自私的人",
-            "value": "5"
-        },
-        {
-            "name": "我努力使自己不被看作为令人讨厌的人",
-            "value": "8"
-        }
-    ],
-    [
-        {
-            "name": "当我担心被别人的需要与要求压垮时我会避免产生亲密的关系",
-            "value": "7"
-        },
-        {
-            "name": "当我担心会辜负人们对我的期望时，我会避免产生亲密的关系",
-            "value": "2"
-        }
-    ]
+﻿ var datas= [
+  [
+    {
+      "name": "I am romantic and full of fantasy",
+      "value": "4"
+    },
+    {
+      "name": "I'm very practical and realistic",
+      "value": "1"
+    }
+  ],
+  [
+    {
+      "name": "I tend to accept conflict",
+      "value": "6"
+    },
+    {
+      "name": "I tend to avoid conflict",
+      "value": "0"
+    }
+  ],
+  [
+    {
+      "name": "I am generally experienced, attractive and motivated",
+      "value": "2"
+    },
+    {
+      "name": "I'm generally straightforward, rigid and fanciful",
+      "value": "4"
+    }
+  ],
+  [
+    {
+      "name": "I tend to be nervous when I concentrate on something",
+      "value": "7"
+    },
+    {
+      "name": "I tend to be natural and like to joke",
+      "value": "8"
+    }
+  ],
+  [
+    {
+      "name": "I am friendly and willing to make new friends",
+      "value": "5"
+    },
+    {
+      "name": "I like being alone, and I don’t want to socialize with people",
+      "value": "4"
+    }
+  ],
+  [
+    {
+      "name": "I find it difficult to relax and stop thinking about potential problems",
+      "value": "1"
+    },
+    {
+      "name": "Potential problems will not affect my work",
+      "value": "0"
+    }
+  ],
+  [
+    {
+      "name": "I am a \"smart\" survivor",
+      "value": "6"
+    },
+    {
+      "name": "I am a \"noble\" idealist",
+      "value": "3"
+    }
+  ],
+  [
+    {
+      "name": "I need to give love to others",
+      "value": "4"
+    },
+    {
+      "name": "I am willing to keep a certain distance from others",
+      "value": "6"
+    }
+  ],
+  [
+    {
+      "name": "When someone gives me a new task, I usually ask myself if it works for me",
+      "value": "2"
+    },
+    {
+      "name": "When someone gives me a new task, I usually ask myself if I am interested",
+      "value": "8"
+    }
+  ],
+  [
+    {
+      "name": "I tend to focus on myself",
+      "value": "4"
+    },
+    {
+      "name": "I tend to follow others",
+      "value": "0"
+    }
+  ],
+  [
+    {
+      "name": "Others rely on my insight and knowledge",
+      "value": "7"
+    },
+    {
+      "name": "Others rely on my power and decision-making",
+      "value": "6"
+    }
+  ],
+  [
+    {
+      "name": "I give people the impression of being very unconfident",
+      "value": "1"
+    },
+    {
+      "name": "I give people the impression of being very confident",
+      "value": "3"
+    }
+  ],
+  [
+    {
+      "name": "I pay more attention to relationships",
+      "value": "5"
+    },
+    {
+      "name": "I pay more attention to purpose",
+      "value": "2"
+    }
+  ],
+  [
+    {
+      "name": "I can't boldly say what I want to say",
+      "value": "4"
+    },
+    {
+      "name": "I can boldly say what others want to say but dare not say",
+      "value": "8"
+    }
+  ],
+  [
+    {
+      "name": "It is very difficult for me to do a certain thing without considering other options",
+      "value": "7"
+    },
+    {
+      "name": "It's difficult for me to relax and be more flexible",
+      "value": "3"
+    }
+  ],
+  [
+    {
+      "name": "I generally hesitate and procrastinate",
+      "value": "1"
+    },
+    {
+      "name": "I am generally bold and decisive",
+      "value": "6"
+    }
+  ],
+  [
+    {
+      "name": "I don't want others to cause me trouble",
+      "value": "0"
+    },
+    {
+      "name": "I am dependent on others, let me help solve the trouble",
+      "value": "5"
+    }
+  ],
+  [
+    {
+      "name": "I usually ignore my feelings to get the job done",
+      "value": "2"
+    },
+    {
+      "name": "I need to restrain my feelings before doing things",
+      "value": "4"
+    }
+  ],
+  [
+    {
+      "name": "I am generally methodical and cautious",
+      "value": "1"
+    },
+    {
+      "name": "I generally dare to take risks",
+      "value": "4"
+    }
+  ],
+  [
+    {
+      "name": "I tend to help and give and like to be with others",
+      "value": "5"
+    },
+    {
+      "name": "I tend to be serious and silent, and like to discuss issues",
+      "value": "3"
+    }
+  ],
+  [
+    {
+      "name": "I often feel that I need to be the pillar",
+      "value": "6"
+    },
+    {
+      "name": "I often feel that what I need to do is perfect",
+      "value": "2"
+    }
+  ],
+  [
+    {
+      "name": "I like to ask difficult questions and stay independent",
+      "value": "6"
+    },
+    {
+      "name": "I like to keep my mind stable and calm",
+      "value": "0"
+    }
+  ],
+  [
+    {
+      "name": "I'm too stubborn and skeptical",
+      "value": "1"
+    },
+    {
+      "name": "I'm too soft-hearted and sentimental",
+      "value": "5"
+    }
+  ],
+  [
+    {
+      "name": "I often worry that I can't get better things",
+      "value": "8"
+    },
+    {
+      "name": "I often worry that if I relax my guard, others will deceive me",
+      "value": "6"
+    }
+  ],
+  [
+    {
+      "name": "I habitually behave coldly and make others angry",
+      "value": "4"
+    },
+    {
+      "name": "I habitually instruct others to do things and make them angry",
+      "value": "3"
+    }
+  ],
+  [
+    {
+      "name": "If there is too much stimulation and encouragement, I will feel worried",
+      "value": "0"
+    },
+    {
+      "name": "If there is not much stimulation and encouragement, I will feel worried",
+      "value": "8"
+    }
+  ],
+  [
+    {
+      "name": "I have to rely on my friends and they can also rely on me",
+      "value": "1"
+    },
+    {
+      "name": "I do not rely on others to act independently",
+      "value": "2"
+    }
+  ],
+  [
+    {
+      "name": "I am generally independent of concentration",
+      "value": "7"
+    },
+    {
+      "name": "I am generally emotional and enthusiastic about my ideas",
+      "value": "4"
+    }
+  ],
+  [
+    {
+      "name": "I like to challenge others to cheer them up",
+      "value": "6"
+    },
+    {
+      "name": "I generally dare to take risks",
+      "value": "5"
+    }
+  ],
+  [
+    {
+      "name": "I am generally a cheerful and social person",
+      "value": "8"
+    },
+    {
+      "name": "I am generally a serious and self-disciplined person",
+      "value": "3"
+    }
+  ],
+  [
+    {
+      "name": "I want to cater to others-when others are far away, I feel uncomfortable",
+      "value": "0"
+    },
+    {
+      "name": "I want to be different-I feel uncomfortable when I cannot see the difference between others and myself",
+      "value": "2"
+    }
+  ],
+  [
+    {
+      "name": "For me, pursuing personal interests is more important than pursuing comfort and safety",
+      "value": "7"
+    },
+    {
+      "name": "For me, the pursuit of comfort is more important than the pursuit of personal interests",
+      "value": "1"
+    }
+  ],
+  [
+    {
+      "name": "I tend to shrink when there is a conflict with others",
+      "value": "4"
+    },
+    {
+      "name": "When conflicts with others, I rarely change my attitude",
+      "value": "6"
+    }
+  ],
+  [
+    {
+      "name": "I can easily give in and be manipulated by others",
+      "value": "0"
+    },
+    {
+      "name": "I not only make no concessions to others, but also give orders to them",
+      "value": "3"
+    }
+  ],
+  [
+    {
+      "name": "I appreciate my high mental state and deepness",
+      "value": "8"
+    },
+    {
+      "name": "I appreciate my deep care and passion for others",
+      "value": "5"
+    }
+  ],
+  [
+    {
+      "name": "I really want to make a good impression on others",
+      "value": "2"
+    },
+    {
+      "name": "I don't care about making a good impression on others",
+      "value": "7"
+    }
+  ],
+  [
+    {
+      "name": "I rely on my perseverance and feelings",
+      "value": "1"
+    },
+    {
+      "name": "I rely on my imagination and instant inspiration",
+      "value": "4"
+    }
+  ],
+  [
+    {
+      "name": "In general, I am very easy-going and cute",
+      "value": "0"
+    },
+    {
+      "name": "In general, I am energetic and overconfident",
+      "value": "6"
+    }
+  ],
+  [
+    {
+      "name": "I work hard to be accepted and liked by others",
+      "value": "2"
+    },
+    {
+      "name": "It is not important to me whether I can be accepted and liked by others",
+      "value": "3"
+    }
+  ],
+  [
+    {
+      "name": "I'm more likely to back down when others put pressure on me",
+      "value": "7"
+    },
+    {
+      "name": "I become more confident when others pressure me",
+      "value": "8"
+    }
+  ],
+  [
+    {
+      "name": "People are interested in me because I am cheerful, attractive and interesting",
+      "value": "5"
+    },
+    {
+      "name": "People are interested in me because I am quiet, unusual and deep",
+      "value": "4"
+    }
+  ],
+  [
+    {
+      "name": "Duties and responsibilities are very important to me",
+      "value": "1"
+    },
+    {
+      "name": "Coordination and recognition are important to me",
+      "value": "0"
+    }
+  ],
+  [
+    {
+      "name": "I make important plans and make promises to encourage people",
+      "value": "6"
+    },
+    {
+      "name": "I point out the consequences of not following our recommendations, as a way to ask people to obey",
+      "value": "3"
+    }
+  ],
+  [
+    {
+      "name": "I rarely express my emotions",
+      "value": "7"
+    },
+    {
+      "name": "I often express my emotions",
+      "value": "5"
+    }
+  ],
+  [
+    {
+      "name": "I'm not good at handling trivial matters",
+      "value": "8"
+    },
+    {
+      "name": "I'm good at handling trivial matters",
+      "value": "2"
+    }
+  ],
+  [
+    {
+      "name": "I often emphasize the differences between myself and most people, especially the differences in family background",
+      "value": "4"
+    },
+    {
+      "name": "I often emphasize the common ground with most people, especially the common ground",
+      "value": "0"
+    }
+  ],
+  [
+    {
+      "name": "When the scene becomes lively, I tend to stand aside",
+      "value": "7"
+    },
+    {
+      "name": "When the scene becomes lively, I tend to join in",
+      "value": "6"
+    }
+  ],
+  [
+    {
+      "name": "Even if my friends are wrong, I will support them",
+      "value": "1"
+    },
+    {
+      "name": "I don't want to compromise on the right things for friendship",
+      "value": "3"
+    }
+  ],
+  [
+    {
+      "name": "I am a kind supporter",
+      "value": "5"
+    },
+    {
+      "name": "I am an active veteran",
+      "value": "2"
+    }
+  ],
+  [
+    {
+      "name": "I tend to exaggerate my problems when encountering difficulties",
+      "value": "4"
+    },
+    {
+      "name": "I tend to divert my attention when encountering difficulties",
+      "value": "8"
+    }
+  ],
+  [
+    {
+      "name": "In general, I am pretty sure I know what the situation should be",
+      "value": "3"
+    },
+    {
+      "name": "In general, I am skeptical about the situation",
+      "value": "7"
+    }
+  ],
+  [
+    {
+      "name": "My pessimism and complaining will cause trouble to others",
+      "value": "1"
+    },
+    {
+      "name": "My bossy, controlled approach will cause trouble for others",
+      "value": "6"
+    }
+  ],
+  [
+    {
+      "name": "I tend to act as I feel and let it go",
+      "value": "5"
+    },
+    {
+      "name": "I tend not to act according to my feelings so as not to cause more problems",
+      "value": "0"
+    }
+  ],
+  [
+    {
+      "name": "Usually when I become the focus of attention, it’s natural",
+      "value": "2"
+    },
+    {
+      "name": "Usually when I become the focus of attention, I am not used to it",
+      "value": "4"
+    }
+  ],
+  [
+    {
+      "name": "I am very cautious in doing things and try to prepare for the unexpected",
+      "value": "1"
+    },
+    {
+      "name": "I do things on the spur of the moment, and only make provisional preparations when problems arise",
+      "value": "8"
+    }
+  ],
+  [
+    {
+      "name": "I get angry when others don’t appreciate what I do for them",
+      "value": "5"
+    },
+    {
+      "name": "I get angry when others don’t listen to me",
+      "value": "3"
+    }
+  ],
+  [
+    {
+      "name": "Independence and self-reliance are important to me",
+      "value": "6"
+    },
+    {
+      "name": "Being valuable and getting praise from others are important to me",
+      "value": "2"
+    }
+  ],
+  [
+    {
+      "name": "When arguing with friends I tend to insist strongly on my opinions",
+      "value": "7"
+    },
+    {
+      "name": "When arguing with friends, I tend to go with the flow so as not to hurt my peace",
+      "value": "0"
+    }
+  ],
+  [
+    {
+      "name": "I often possess the people I love-I can't let them go",
+      "value": "4"
+    },
+    {
+      "name": "I often \"investigate\" the people I love to determine if they love me",
+      "value": "1"
+    }
+  ],
+  [
+    {
+      "name": "Organizing resources and making certain things happen is one of my strengths",
+      "value": "6"
+    },
+    {
+      "name": "It is one of my strengths to come up with new ideas and be exciting at the same time",
+      "value": "8"
+    }
+  ],
+  [
+    {
+      "name": "I have to be driven by others to do things, I cannot rely on myself",
+      "value": "3"
+    },
+    {
+      "name": "I am too emotional to discipline myself",
+      "value": "4"
+    }
+  ],
+  [
+    {
+      "name": "I try to make life high-paced, intense and full of excitement",
+      "value": "8"
+    },
+    {
+      "name": "I try to make life regular, stable and peaceful",
+      "value": "0"
+    }
+  ],
+  [
+    {
+      "name": "Despite my success, I still doubt my ability",
+      "value": "1"
+    },
+    {
+      "name": "Despite my setbacks, I still believe in my abilities",
+      "value": "2"
+    }
+  ],
+  [
+    {
+      "name": "Generally I tend to study my emotions in detail and keep them for a long time",
+      "value": "4"
+    },
+    {
+      "name": "Generally I tend to reduce my emotions without paying attention",
+      "value": "7"
+    }
+  ],
+  [
+    {
+      "name": "I pay attention to many people and nurture them",
+      "value": "5"
+    },
+    {
+      "name": "I mentor many people and encourage them",
+      "value": "2"
+    }
+  ],
+  [
+    {
+      "name": "I am a bit strict with myself",
+      "value": "3"
+    },
+    {
+      "name": "I am a bit tolerant of myself",
+      "value": "8"
+    }
+  ],
+  [
+    {
+      "name": "I tend to be arbitrary and strive for excellence",
+      "value": "2"
+    },
+    {
+      "name": "I am humble and like to do things at my own pace",
+      "value": "0"
+    }
+  ],
+  [
+    {
+      "name": "I am proud of my clarity and purpose",
+      "value": "7"
+    },
+    {
+      "name": "I am proud of my reliability and honesty",
+      "value": "1"
+    }
+  ],
+  [
+    {
+      "name": "I spend a lot of time reflecting-it is important for me to understand how I feel",
+      "value": "4"
+    },
+    {
+      "name": "I spend a lot of time reflecting on it-it’s important for me to get things done",
+      "value": "6"
+    }
+  ],
+  [
+    {
+      "name": "In general I consider myself a brilliant easygoing person",
+      "value": "0"
+    },
+    {
+      "name": "In general I am a serious and tasteful person",
+      "value": "3"
+    }
+  ],
+  [
+    {
+      "name": "I am flexible and energetic",
+      "value": "8"
+    },
+    {
+      "name": "I have a passionate heart and a spirit of dedication",
+      "value": "5"
+    }
+  ],
+  [
+    {
+      "name": "What I do must be rewarded and appreciated",
+      "value": "2"
+    },
+    {
+      "name": "If I am interested in what I do, I am willing to give up my reward and appreciation",
+      "value": "7"
+    }
+  ],
+  [
+    {
+      "name": "I think it is not important to fulfill social obligations",
+      "value": "3"
+    },
+    {
+      "name": "I often fulfill my social obligations seriously",
+      "value": "1"
+    }
+  ],
+  [
+    {
+      "name": "In most cases, I am willing to be a leader",
+      "value": "6"
+    },
+    {
+      "name": "In most cases, I am willing to let other people lead",
+      "value": "0"
+    }
+  ],
+  [
+    {
+      "name": "Over the years, my values and lifestyle have changed several times",
+      "value": "3"
+    },
+    {
+      "name": "Over the years, my values and lifestyle have basically not changed",
+      "value": "1"
+    }
+  ],
+  [
+    {
+      "name": "Generally I lack self-discipline",
+      "value": "8"
+    },
+    {
+      "name": "Generally, I have very little contact with others",
+      "value": "7"
+    }
+  ],
+  [
+    {
+      "name": "I tend to refuse to give love, hoping for others to enter my world",
+      "value": "4"
+    },
+    {
+      "name": "I tend to give love to others too bluntly, hoping that I will enter the world of others",
+      "value": "5"
+    }
+  ],
+  [
+    {
+      "name": "I tend to prepare for the worst",
+      "value": "1"
+    },
+    {
+      "name": "I tend to think that everything will be the best",
+      "value": "0"
+    }
+  ],
+  [
+    {
+      "name": "People believe me because I am confident and do my best",
+      "value": "3"
+    },
+    {
+      "name": "People believe me because I am fair and do things right",
+      "value": "1"
+    }
+  ],
+  [
+    {
+      "name": "I am often busy with my own affairs and neglect the interaction with others",
+      "value": "7"
+    },
+    {
+      "name": "I am often busy with other people and neglect my own affairs",
+      "value": "4"
+    }
+  ],
+  [
+    {
+      "name": "When I meet someone for the first time, I usually feel calm and reticent.",
+      "value": "2"
+    },
+    {
+      "name": "When I meet someone for the first time, I usually chat and make people find it interesting",
+      "value": "8"
+    }
+  ],
+  [
+    {
+      "name": "All in all, I am very pessimistic",
+      "value": "0"
+    },
+    {
+      "name": "All in all, I am very optimistic",
+      "value": "4"
+    }
+  ],
+  [
+    {
+      "name": "I prefer to stay in my own little world",
+      "value": "7"
+    },
+    {
+      "name": "I prefer to let people all over the world know where I am",
+      "value": "6"
+    }
+  ],
+  [
+    {
+      "name": "I am often troubled by tension, insecurity and doubt",
+      "value": "1"
+    },
+    {
+      "name": "I am often troubled by anger, perfectionism and impatience",
+      "value": "3"
+    }
+  ],
+  [
+    {
+      "name": "I realize that I am too humane and too intimate",
+      "value": "5"
+    },
+    {
+      "name": "I realized I was too cool and indifferent",
+      "value": "2"
+    }
+  ],
+  [
+    {
+      "name": "I failed because I couldn't take the opportunity",
+      "value": "4"
+    },
+    {
+      "name": "I failed because I pursued too many possibilities",
+      "value": "8"
+    }
+  ],
+  [
+    {
+      "name": "I will take a long time to take action",
+      "value": "7"
+    },
+    {
+      "name": "I will act immediately",
+      "value": "3"
+    }
+  ],
+  [
+    {
+      "name": "Usually it is difficult for me to make",
+      "value": "1"
+    },
+    {
+      "name": "I rarely find it difficult to make a decision",
+      "value": "6"
+    }
+  ],
+  [
+    {
+      "name": "I tend to leave the impression of a strong attitude",
+      "value": "5"
+    },
+    {
+      "name": "I am not inclined to insist on my opinion too much",
+      "value": "0"
+    }
+  ],
+  [
+    {
+      "name": "I am emotionally stable",
+      "value": "2"
+    },
+    {
+      "name": "My mood changes",
+      "value": "4"
+    }
+  ],
+  [
+    {
+      "name": "When I don’t know what to do, I often seek advice from others",
+      "value": "1"
+    },
+    {
+      "name": "When I don’t know what to do, I try different things to determine which one is best for me",
+      "value": "8"
+    }
+  ],
+  [
+    {
+      "name": "I am worried that others will forget me when they engage in activities",
+      "value": "5"
+    },
+    {
+      "name": "I am worried that participating in other people's activities will affect me to do my own things",
+      "value": "3"
+    }
+  ],
+  [
+    {
+      "name": "When I am angry, I usually blame others",
+      "value": "6"
+    },
+    {
+      "name": "When I am angry, I generally become cold",
+      "value": "2"
+    }
+  ],
+  [
+    {
+      "name": "I have a hard time falling asleep",
+      "value": "7"
+    },
+    {
+      "name": "I can fall asleep soon",
+      "value": "0"
+    }
+  ],
+  [
+    {
+      "name": "I often think hard about how to have a more intimate relationship with others",
+      "value": "5"
+    },
+    {
+      "name": "I often try to think about what others want from me",
+      "value": "1"
+    }
+  ],
+  [
+    {
+      "name": "Usually I am a prudent, straightforward and thoughtful person",
+      "value": "6"
+    },
+    {
+      "name": "Usually I am easy to excite, good at talking quickly to avoid problems and witty",
+      "value": "8"
+    }
+  ],
+  [
+    {
+      "name": "When I see others making mistakes, I often don’t say anything",
+      "value": "4"
+    },
+    {
+      "name": "When I see others making mistakes, I often help them recognize the mistakes they made",
+      "value": "3"
+    }
+  ],
+  [
+    {
+      "name": "For most of the time in life, I am a person with intense emotions and will have many changeable emotions",
+      "value": "8"
+    },
+    {
+      "name": "For most of the time in life, I am a very stable person, I will \"heart stop water\"",
+      "value": "0"
+    }
+  ],
+  [
+    {
+      "name": "When I don’t like certain people, I hide my emotions and try to stay passionate.",
+      "value": "2"
+    },
+    {
+      "name": "When I don’t like certain people, I will let them know my emotions in one way or another",
+      "value": "1"
+    }
+  ],
+  [
+    {
+      "name": "I have difficulties with other people because I am sensitive and always consider things from my own perspective",
+      "value": "4"
+    },
+    {
+      "name": "I have difficulty with other people because I don’t care much about social customs",
+      "value": "7"
+    }
+  ],
+  [
+    {
+      "name": "My way is to help others directly",
+      "value": "5"
+    },
+    {
+      "name": "My method is to tell others how to help themselves",
+      "value": "6"
+    }
+  ],
+  [
+    {
+      "name": "In general, I like to \"release\" and break through the limitations",
+      "value": "8"
+    },
+    {
+      "name": "In general, I don’t like losing self-control too much",
+      "value": "3"
+    }
+  ],
+  [
+    {
+      "name": "I am overly focused on doing better than others",
+      "value": "2"
+    },
+    {
+      "name": "I just focus too much on doing other people’s things well",
+      "value": "0"
+    }
+  ],
+  [
+    {
+      "name": "My thoughts are always very fancy-contains imagination and curiosity",
+      "value": "7"
+    },
+    {
+      "name": "My ideas are always very practical-just trying to keep things going",
+      "value": "1"
+    }
+  ],
+  [
+    {
+      "name": "One of my main strengths is that I can control the scene",
+      "value": "6"
+    },
+    {
+      "name": "One of my main strengths is that I can tell what I feel",
+      "value": "4"
+    }
+  ],
+  [
+    {
+      "name": "I try to do things well, no matter what makes others unhappy",
+      "value": "3"
+    },
+    {
+      "name": "I don’t like the feeling of pressure, so I don’t like to suppress others",
+      "value": "0"
+    }
+  ],
+  [
+    {
+      "name": "I am often proud because I play an important role in the lives of others",
+      "value": "5"
+    },
+    {
+      "name": "I am often proud because I am interested in new experiences and willing to accept them",
+      "value": "8"
+    }
+  ],
+  [
+    {
+      "name": "I think the impression I leave on others is good and even admirable",
+      "value": "2"
+    },
+    {
+      "name": "I think the impression I leave on others is unique and even weird",
+      "value": "7"
+    }
+  ],
+  [
+    {
+      "name": "Generally I do what I have to do",
+      "value": "1"
+    },
+    {
+      "name": "Generally I do what I want",
+      "value": "4"
+    }
+  ],
+  [
+    {
+      "name": "I like being under high pressure and even difficult situations",
+      "value": "6"
+    },
+    {
+      "name": "I don’t like being under high pressure or even difficult situations",
+      "value": "0"
+    }
+  ],
+  [
+    {
+      "name": "I am proud of my flexibility-I know that suitable or important situations change",
+      "value": "2"
+    },
+    {
+      "name": "I am proud of my position-I have firm beliefs",
+      "value": "3"
+    }
+  ],
+  [
+    {
+      "name": "My style tends to be frugal and simple",
+      "value": "7"
+    },
+    {
+      "name": "My style tends to overdo certain things",
+      "value": "8"
+    }
+  ],
+  [
+    {
+      "name": "My health and happiness are hurt because I have a strong desire to help others",
+      "value": "5"
+    },
+    {
+      "name": "My interpersonal relationship is damaged because I only focus on my needs",
+      "value": "4"
+    }
+  ],
+  [
+    {
+      "name": "Generally speaking, I am too frank and naive",
+      "value": "0"
+    },
+    {
+      "name": "In general, I'm too cautious and too alert",
+      "value": "1"
+    }
+  ],
+  [
+    {
+      "name": "Sometimes I am disgusting for being too aggressive",
+      "value": "6"
+    },
+    {
+      "name": "Sometimes I am too nervous and disgusting",
+      "value": "3"
+    }
+  ],
+  [
+    {
+      "name": "It is very important to me to care about the needs of others and provide services",
+      "value": "5"
+    },
+    {
+      "name": "It is important for me to find other ways to look at and do things well",
+      "value": "7"
+    }
+  ],
+  [
+    {
+      "name": "I pursue my goal wholeheartedly and persistently",
+      "value": "2"
+    },
+    {
+      "name": "I like to explore various ways of action and want to see the final result",
+      "value": "8"
+    }
+  ],
+  [
+    {
+      "name": "I often arouse strong and nervous emotions",
+      "value": "4"
+    },
+    {
+      "name": "I often make myself calm and at ease",
+      "value": "0"
+    }
+  ],
+  [
+    {
+      "name": "I don’t pay much attention to actual results, but pay attention to my own interests",
+      "value": "7"
+    },
+    {
+      "name": "I am very practical and hope that my work will have concrete results",
+      "value": "6"
+    }
+  ],
+  [
+    {
+      "name": "I have a strong need to belong",
+      "value": "1"
+    },
+    {
+      "name": "I have a strong balance need",
+      "value": "3"
+    }
+  ],
+  [
+    {
+      "name": "In the past, I might ask for intimacy between friends too much",
+      "value": "5"
+    },
+    {
+      "name": "In the past, I might have asked for estrangement between friends",
+      "value": "2"
+    }
+  ],
+  [
+    {
+      "name": "I tend to recall the past",
+      "value": "3"
+    },
+    {
+      "name": "I tend to anticipate things to do in the future",
+      "value": "8"
+    }
+  ],
+  [
+    {
+      "name": "I tend to think of people as troublesome and demanding",
+      "value": "7"
+    },
+    {
+      "name": "I tend to think of people as reckless and needy",
+      "value": "3"
+    }
+  ],
+  [
+    {
+      "name": "In general, I am not very confident",
+      "value": "1"
+    },
+    {
+      "name": "In general, I only believe in myself",
+      "value": "6"
+    }
+  ],
+  [
+    {
+      "name": "I may be too passive to actively participate",
+      "value": "0"
+    },
+    {
+      "name": "I may have too much control",
+      "value": "5"
+    }
+  ],
+  [
+    {
+      "name": "I often stop because I doubt myself",
+      "value": "4"
+    },
+    {
+      "name": "I rarely doubt myself",
+      "value": "2"
+    }
+  ],
+  [
+    {
+      "name": "If I choose between the familiar and the new, I will choose the new",
+      "value": "8"
+    },
+    {
+      "name": "I usually choose what I like: I will be disappointed with what I don’t like",
+      "value": "1"
+    }
+  ],
+  [
+    {
+      "name": "I give people a lot of physical contact to make them believe in my love for them",
+      "value": "5"
+    },
+    {
+      "name": "I think true love does not require physical contact",
+      "value": "3"
+    }
+  ],
+  [
+    {
+      "name": "When I need to blame others, I am very strict and straightforward",
+      "value": "6"
+    },
+    {
+      "name": "When I need to blame others, I often take the side by side",
+      "value": "2"
+    }
+  ],
+  [
+    {
+      "name": "I am very interested in subjects that others think are troublesome or even scary",
+      "value": "7"
+    },
+    {
+      "name": "I don’t like to study disturbing and terrible subjects",
+      "value": "0"
+    }
+  ],
+  [
+    {
+      "name": "I was accused of obstructing and interfering with others",
+      "value": "5"
+    },
+    {
+      "name": "I was accused of being too evasive and reticent",
+      "value": "1"
+    }
+  ],
+  [
+    {
+      "name": "I'm worried that I can't perform my duties",
+      "value": "6"
+    },
+    {
+      "name": "I am worried that I lack self-discipline and cannot perform my duties",
+      "value": "8"
+    }
+  ],
+  [
+    {
+      "name": "Generally speaking, I am a person who is very intuitive and extremely individualistic.",
+      "value": "4"
+    },
+    {
+      "name": "In general I am a very organized and responsible person",
+      "value": "3"
+    }
+  ],
+  [
+    {
+      "name": "Overcoming inertia is one of my main problems",
+      "value": "0"
+    },
+    {
+      "name": "Not being able to slow down is one of my main problems",
+      "value": "8"
+    }
+  ],
+  [
+    {
+      "name": "When I feel unsafe, I become arrogant and express contempt for it",
+      "value": "2"
+    },
+    {
+      "name": "When I feel unsafe, I defend myself and become arguable",
+      "value": "1"
+    }
+  ],
+  [
+    {
+      "name": "I am open-minded and willing to try new methods",
+      "value": "7"
+    },
+    {
+      "name": "I will confess my true feelings and be willing to share my emotions with others",
+      "value": "4"
+    }
+  ],
+  [
+    {
+      "name": "I will be tougher than I am in front of others",
+      "value": "6"
+    },
+    {
+      "name": "In front of others I will act more caring than I am",
+      "value": "5"
+    }
+  ],
+  [
+    {
+      "name": "Usually I do things according to my conscience and reason",
+      "value": "3"
+    },
+    {
+      "name": "Usually I do things according to my feelings and impulses",
+      "value": "8"
+    }
+  ],
+  [
+    {
+      "name": "Severe adversity makes me strong",
+      "value": "2"
+    },
+    {
+      "name": "The severe adversity made me feel discouraged and resigned",
+      "value": "0"
+    }
+  ],
+  [
+    {
+      "name": "I am sure there is some kind of \"safety net\" to rely on",
+      "value": "7"
+    },
+    {
+      "name": "I often choose to stay on the edge without relying on it",
+      "value": "1"
+    }
+  ],
+  [
+    {
+      "name": "I want to be strong for others so I don’t have time to take care of my emotions and worries",
+      "value": "6"
+    },
+    {
+      "name": "I cannot cope with my emotions and worries, so I cannot be strong for others",
+      "value": "4"
+    }
+  ],
+  [
+    {
+      "name": "I often find it strange that there are so many good things in life why people only see the negative side",
+      "value": "0"
+    },
+    {
+      "name": "I often wonder why people are so happy in life",
+      "value": "3"
+    }
+  ],
+  [
+    {
+      "name": "I try not to be seen as a selfish person",
+      "value": "5"
+    },
+    {
+      "name": "I try not to be seen as an annoying person",
+      "value": "8"
+    }
+  ],
+  [
+    {
+      "name": "When I am worried about being overwhelmed by the needs and demands of others, I avoid having intimate relationships",
+      "value": "7"
+    },
+    {
+      "name": "When I am worried that I will fail people’s expectations of me, I avoid having an intimate relationship",
+      "value": "2"
+    }
+  ]
 ]
