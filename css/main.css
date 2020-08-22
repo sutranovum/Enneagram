@@ -103,3 +103,6 @@ footer {
     width: 120px;
     height: 120px;
 }
+.mdl-button {
+  text-transform: none;
+}
