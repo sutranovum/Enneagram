@@ -1,23 +1,12 @@
 # Enneagram
 
-Enneagram of Personality {九型人格}
-
-
-# Website
-
-[nine.qiujuer.net](http://nine.qiujuer.net)
-
-# Authors
-
-[Qiujuer](https://github.com/qiujuer)
-
-[Chendcer](https://github.com/chendcer)
-
+Forked from https://github.com/qiujuer/Enneagram
 
 # License
 
     --------
-    Copyright 2015 Qiujuer,Chendcer.
+    Copyright 2015 Qiujuer,Chendcer
+    English Translation Copyright 2020 Sutranovum
     
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
