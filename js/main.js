@@ -52,7 +52,7 @@ function nineEnd() {
 $(document).ready(function () {
     var ctx = document.getElementById("canvas").getContext("2d");
     var radarChartData = {
-        labels: ["完美型", "助人型", "成就型", "自我型", "理智型", "疑惑型", "活跃型", "领袖型", "和平型"],
+        labels: ["perfect", "help", "achievement", "self", "reason", "doubt", "active", "leader", "peace"],
         datasets: [
             {
                 label: "Nine",
