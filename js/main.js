@@ -52,7 +52,7 @@ function nineEnd() {
 $(document).ready(function () {
     var ctx = document.getElementById("canvas").getContext("2d");
     var radarChartData = {
-        labels: ["perfect", "help", "achievement", "self", "reason", "doubt", "active", "leader", "peace"],
+        labels: ["1. Perfect", "2. Help", "3. Achievement", "4. Self", "5. Reason", "6. Doubt", "7. Active", "8. Leader", "9. Peace"],
         datasets: [
             {
                 label: "Nine",
