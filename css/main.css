@@ -62,19 +62,16 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#ninie_result {
+#nine_result {
     max-width: 640px;
     margin: auto;
     align-content: center;
     text-align: center;
     padding-bottom: 16px;
 }
-
-    #ninie_result a {
-        vertical-align: middle;
-        min-height: 40px;
-        min-width: 120px;
-    }
+#nine_result li {
+  list-style-type: none;
+}
 
 #nine_help {
     text-align: center;

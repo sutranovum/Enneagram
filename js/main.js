@@ -2,7 +2,7 @@
 var nine_value = [0, 0, 0, 0, 0, 0, 0, 0, 0];
 var index = 0;
 var radar;
-
+var isTestMode = false
 
 function nineOut(callback) {
     $("#nine_c_one_txt").fadeOut("fast");
@@ -38,63 +38,77 @@ function getValues(item) {
 };
 
 function nineEnd() {
-    $("#nine_title").text("Oh~ Good Nice!");
+    
     $("#nine_select").hide();
-    $("#ninie_result").show();
-    $("#canvas").show();
-
-    for (var i = 0; i < nine_value.length; i++) {
-        radar.datasets[0].points[i].value = nine_value[i];
-    }
-    radar.update();
+    $("#nine_result").show();
+    
+    const enneagramNames = ["Reformer", "Helper", "Achiever", "Individualist", "Investigator", "Loyalist", "Enthusiast", "Challenger", "Peacemaker"]
+    let enneagramResults = enneagramNames.map((label, idx) => {
+      return {
+        label:label,
+        number:idx+1,
+        value:nine_value[idx],
+        url:`https://www.enneagraminstitute.com/type-${idx+1}`
+      }
+    })
+    enneagramResults.sort((a, b)=>a.value<b.value?1:-1)
+    const html = "<p>Here are your scores for each of the enneagram types, highest score first. Tap the links for a more detailed description of the type.</p><ul>"+enneagramResults.map(result => {
+      return `<li><a target="_blank" href="${result.url}">Type ${result.number} (${result.label})</a> - ${result.value}</li>`
+    }).join("")+"</ul>"
+    $("#nine_title").text(`You are most likely Enneagram type ${enneagramResults[0].number} (${enneagramResults[0].label})`);
+    $("#nine_result").html(html)
+    
 };
-
+const test = function() {
+  isTestMode = true
+  var btns = $("button[name='nine_c']")
+  for (var i = 0;i<144;i++) {
+    $(btns[Math.floor(Math.random()*2)]).trigger("click")
+  }
+}
 $(document).ready(function () {
-    var ctx = document.getElementById("canvas").getContext("2d");
-    var radarChartData = {
-        labels: ["1. Perfect", "2. Help", "3. Achievement", "4. Self", "5. Reason", "6. Doubt", "7. Active", "8. Leader", "9. Peace"],
-        datasets: [
-            {
-                label: "Nine",
-                fillColor: "rgba(156, 39, 176, 0.4)",
-                strokeColor: "rgba(156, 39, 176, 1)",
-                pointColor: "rgba(156, 39, 176, 0.8)",
-                pointStrokeColor: "#7b1fa2",
-                pointHighlightFill: "#7b1fa2",
-                pointHighlightStroke: "rgba(156, 39, 176, 1)",
-                data: nine_value
-            }
-        ]
-    };
-    radar = new Chart(ctx).Radar(radarChartData, {
-        responsive: true
-    });
-
+    
+    
     $("button[name='nine_c']").click(function () {
         index++;
-        if (index >= datas.length)
+        if (index >= datas.length) {
             nineEnd();
-        else {
+        } else {
             var item = $(this);
-            nineOut(function () {
-                getValues(item);
-                setValues(index);
-                nineIn();
-            });
+            if (isTestMode) {
+              getValues(item);
+              setValues(index);
+            } else {
+              nineOut(function () {
+                  getValues(item);
+                  setValues(index);
+                  nineIn();
+              });
+            }
+          
         }
     });
 
-    $("#nine_start").click(function () {
-        $("#nine_help").fadeOut(300, function () {
-            $(this).hide();
-            setValues(index);
-            $("#nine_select").show();
-            nineIn();
-        });
+    $("#nine_start").click(function (e) {
+        if (e.altKey) {
+          $("#nine_help").hide()
+          setValues(index);
+          $("#nine_select").show();
+          nineIn();
+          test();
+        } else {
+          $("#nine_help").fadeOut(300, function () {
+              $(this).hide();
+              setValues(index);
+              $("#nine_select").show();
+              nineIn();
+          });
+        }
+        
     });
 
     // First 
     $("#canvas").hide();
     $("#nine_select").hide();
-    $("#ninie_result").hide();
+    $("#nine_result").hide();
 });
